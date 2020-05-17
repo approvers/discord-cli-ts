@@ -1,0 +1,9 @@
+{
+  "name": "discord-cli-ts",
+  "description": "TypeScriptで制作されたDiscord CLIです。",
+  "version": "0.1.0",
+  "main": "build/app.js",
+  "author": "Shuntaro Nishizawa <shun.shobon@gmail.com> (https://github.com/shun-shobon)",
+  "license": "MIT",
+  "private": true
+}
