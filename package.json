@@ -5,5 +5,16 @@
   "main": "build/app.js",
   "author": "Shuntaro Nishizawa <shun.shobon@gmail.com> (https://github.com/shun-shobon)",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "node build/app.js",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  }
 }
